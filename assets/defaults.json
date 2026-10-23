@@ -1,0 +1,112 @@
+{
+  "profile": "清楚、自然；按当前创作者的定位调整",
+  "export": {
+    "long_edge": 1920,
+    "fps": 60,
+    "fps_policy": "preserve_source_cadence; prefer native 50/59.94/60; never claim duplicated frames improve motion",
+    "rate_control": "high_bitrate_vbr",
+    "video_bitrate": "40M",
+    "video_maxrate": "60M",
+    "video_bufsize": "120M",
+    "crf": 14,
+    "preset": "slow",
+    "intermediate_crf": 0,
+    "intermediate_preset": "fast",
+    "hardware_video_bitrate": "40M",
+    "audio_bitrate": "192k"
+  },
+  "subtitles": {
+    "font_size": 62,
+    "highlight_size": 62,
+    "colors": [
+      "#FFD92F",
+      "#6DF3C3"
+    ],
+    "text_color": "#FFFFFF",
+    "stroke_color": "#171D25",
+    "stroke_width": 4,
+    "baseline_fraction": 0.825,
+    "max_width_fraction": 0.8,
+    "keyword_pop_seconds": 0,
+    "keyword_underline": false,
+    "fixed_top_title": false,
+    "sync_evidence_required": true,
+    "timing_start_early_seconds": 0.08,
+    "timing_start_late_seconds": 0.1,
+    "timing_end_early_seconds": 0.06,
+    "timing_end_late_seconds": 0.16
+  },
+  "cover": {
+    "size": [
+      1080,
+      1920
+    ],
+    "exact_user_title": true,
+    "style": "大人物、大字、清楚层级；按内容选择真实观点、适度综艺教程、清爽知识或科技工具版式",
+    "natural_beauty": false,
+    "preserve_identity_and_age": true,
+    "default_count": 1,
+    "style_reference": "references/cover-direction.md",
+    "crop_adjustment": "优先换行、位移和重组证据，保持人物与主题词视觉尺度；当次预览与保守裁切复核",
+    "reference_policy": "风格参考只借布局与配色；身份来自当前视频；不移植他人标题数据",
+    "intake_reminder": {
+      "main_title": "确认已有主标题；未定时从视频提炼给用户确认",
+      "subtitle": "可选，信息没有增加则不放",
+      "emphasis": "核心关键词/真实数字",
+      "reference": "仅使用当前项目提供且有权使用的参考；未提供时按内容设计",
+      "portrait": "当前视频身份帧或本人照片",
+      "evidence": "有真实界面/结果才展示",
+      "interaction": "先简短提醒，不重复问已知项；已授权直接出图时不因可选项阻塞"
+    }
+  },
+  "text_design": {
+    "scope": "设计指导；基础subtitle_renderer不会自动渲染上方文字，需单独实施",
+    "spoken_captions": "清晰有质感的中文字体；稳定跟读，按语义变化字重、重点词字号与表现形式",
+    "upper_emphasis": {
+      "font_role": "独立中文粗黑体或标题字体",
+      "font_size_1080p_starting_range": [
+        90,
+        140
+      ],
+      "forms": [
+        "大字短句",
+        "巨大数字加短名称",
+        "对比排版",
+        "色块或笔刷",
+        "提问气泡",
+        "关键词箭头关系"
+      ],
+      "animation_options": [
+        "短促缩放",
+        "短滑入",
+        "逐项出现"
+      ],
+      "fixed_top_title": false
+    },
+    "selection": "按内容选择；同片统一色系与少量字体角色，保留足够阅读时间，避开脸部"
+  },
+  "production": {
+    "sample_first": "先做代表性短样段并审阅；已认可系列样式可复用，不强制询问",
+    "order": [
+      "semantic_cut",
+      "visual_and_audio_effects",
+      "spoken_captions",
+      "cover",
+      "review"
+    ],
+    "implementation_record": "planned / implemented / verified；技术检查不等于视觉与听审",
+    "design_reference": "references/editing-playbook.md",
+    "type_and_sound_reference": "references/type-and-sound.md",
+    "review_dimensions": [
+      "semantic_integrity",
+      "list_order_and_units",
+      "evidence_readability",
+      "type_roles_and_overflow",
+      "face_and_hand_clearance",
+      "mask_edges_and_layer_sync",
+      "motion_entry_hold_exit",
+      "audio_review_separate_from_technical_checks"
+    ],
+    "tutorial_parameters": "参考中的参数是试调起点；以实际画幅、可读性和播放检查为准"
+  }
+}

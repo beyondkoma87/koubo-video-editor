@@ -1,0 +1,2 @@
+# Required only for subtitle/effect/layer renderers.
+Pillow

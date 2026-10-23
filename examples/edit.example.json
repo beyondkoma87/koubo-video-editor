@@ -1,0 +1,13 @@
+{
+  "source": "/absolute/path/to/your/source.mp4",
+  "keep": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "reason": "示意区间，须按实际素材审阅后替换"
+    }
+  ],
+  "notes": [
+    "格式示意，未执行剪辑或语义审阅；默认不附编造字幕。"
+  ]
+}

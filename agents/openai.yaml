@@ -1,0 +1,4 @@
+interface:
+  display_name: "口播视频剪辑总台"
+  short_description: "语义精剪、并列图文与人物资料布局，搭配字体声音，核对字幕、封面和成片"
+  default_prompt: "请使用 $koubo-video-editor，按我们确认的方法分析并剪辑这条口播视频，附封面和字幕。"
